@@ -1,0 +1,81 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+/*reset*/
+
+ul, ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+button{
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header-container{
+
+}
+
+.logo
+
+.header-nav{
+
+}
+.header-menu
+.header-list
+
+.btn-content{
+
+}
+
+.hero{
+    padding-top: 14px;
+    padding-bottom: 69px;
+}
+
+.about {
+    padding-top: 113px;
+    padding-bottom: 124px;
+    background: #ffe550;
+}
+
+.about-container {
+display: flex;
+
+}
+
+.about-title {}
+
+.about-text {}
+
+.about-list {}
+
+.about-item {}
+
+.about-sabtitle {}
+
+.about-dsc {}
+
+.about-btn {}
