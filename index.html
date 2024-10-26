@@ -17,17 +17,18 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+
     <div class="container header-container">
         <a class="logo"><img src="./images/Vector.svg" 
         alt="Logo" width="66" height="52" /></a>
         <nav class="header-nav">
             <ul class="header-menu">
-                <li class="header-list"><a href="">Home</a></li>
-                <li class="header-list"><a href="">About</a></li>
-                <li class="header-list" ><a href="">Service</a></li>
-                <li class="header-list"><a href="">Menu</a></li>
-                <liclass="header-list" ><a href="">Contact</a></li>
+                <li class="header-list"><a class="nav-link" href=""><span class="list-second">Home</span></a></li>
+                <li class="header-list"><a class="nav-link" href="">About</a></li>
+                <li class="header-list" ><a class="nav-link" href="">Service</a></li>
+                <li class="header-list"><a class="nav-link" href="">Menu</a></li>
+                <li class="header-list"><a class="nav-link" href="">Contact</a></li>
             </ul>
         </nav>
         <button class="btn-content">Order Now</button>
@@ -35,8 +36,10 @@
     </header>
 
     <main>
+
 <section class="hero">
     <div class="container hero-container">
+        <div class="hero-text-wrap">
     <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
     <p class="hero-text">
         With just a few clicks, you can have your favorite meals delivered
@@ -44,19 +47,27 @@
         enjoy a hassle-free and delicious meal from the comfort of your own
         home.
     </p>
-    <button type="button">Order Now</button>
+    <button class="btn-content" type="button">Order Now</button>
+     </div>
     <img src="./images/Salat-1-min.png" alt="salad" width="528" />
+ </div>
+    
 </section>
 
 
 <section class="about">
     <div class="container about-container">
         <div class="about-wrap">
-    <h2 class="about-title">What’s Special About Our Offerings</h2>
+        <h2 class="about-title">What’s Special About Our Offerings</h2>
         <p class="about-text">With our platform, you can browse through a diverse selection of cuisines and local restaurants, and choose from a
             variety of dishes that cater to your specific taste buds.</p>
             <ul class="about-list">
                 <li class="about-item">
+                    <div class="svg-icons">
+                        <svg width="48" height="48">
+                            <use href="./images/icons.svg#icon-deliv"></use>
+                        </svg>
+                    </div>
                     <h3 class="about-sabtitle">Fasest Delivery</h3>
                     <p class="about-dsc">Our advanced logistics system and dedicated delivery partners ensure that your meals are delivered to you within
                     30-minutes.</p>
