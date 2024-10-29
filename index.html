@@ -31,7 +31,7 @@
                 <li class="header-list"><a class="nav-link" href="">Contact</a></li>
             </ul>
         </nav>
-        <button class="btn-content">Order Now</button>
+        <button class="btn-content" type="button" data-modal-open>Order Now</button>
     </div>
     </header>
 
@@ -172,5 +172,32 @@
     </section>
 </footer>
 
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <p class="modal-title">Order Form</p>
+        <button type="button" class="modal-close-btn" data-modal-close>x</button>
+        <p class="modal-title"></p>
+        <form>
+            <div class="modal-field">
+                <label for="user-name" class="modal-label">Name</label>
+                <input type="text" class="modal-inpput" placeholder="Your name"
+                id="user-name" name="user-name"/>
+            </div>
+            <div class="modal-field">
+                <label for="user-phone" class="modal-label">Phone number</label>
+                <input type="tel" class="modal-inpput" placeholder="+38(0_ _) _ _ _   _ _   _ _"
+                id="user-phone" name="user-phone"/>
+            </div>
+            <div class="modal-field-last">
+                <label for="user-email" class="modal-label">E-mail</label>
+                <input type="email" class="modal-inpput" placeholder="example@gmail.com"
+                id="user-email" name="user-email"/>
+            </div>
+            <button class="modal-send-btn">Send</button>
+        </form>
+    </div>
+    </div>
+</div>
+<script src="./js/modal.js"></script>
 </body>
 </html>
