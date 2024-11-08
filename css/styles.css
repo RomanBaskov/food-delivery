@@ -160,7 +160,9 @@ button {
 
 .about-item
 
-.svg-icon
+.svg-icon{
+    text-align: center;
+}
 
 .icon-about{
 border-radius: 100%;
