@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Roboto", sans-serif;
     color: #2c2c2c;
     background-color: #ffffff;
@@ -7,13 +7,20 @@ body{
 
 /*reset*/
 
-ul, ol{
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
@@ -21,17 +28,17 @@ a {
     text-decoration: none;
 }
 
-img{
+img {
     display: block;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
 /*header*/
 
-.container{
+.container {
     max-width: 1280px;
     padding: 0 16px;
     margin: 0 auto;
@@ -48,27 +55,26 @@ button{
     border: none;
 }
 
-.header-container{
-display: flex;
-align-items: center;
+.header-container {
+    display: flex;
+    align-items: center;
 }
 
-.logo{
+.logo {
     margin-right: auto;
 }
 
-.header-nav{
+.header-nav {
     margin-right: 30px;
 
 }
-.header-menu{
+
+.header-menu {
     display: flex;
     gap: 28px;
 }
 
-.header-list
-
-.nav-link{
+.header-list .nav-link {
     padding: 28px 0;
     display: block;
     font-size: 14px;
@@ -76,7 +82,7 @@ align-items: center;
 }
 
 .nav-link:hover,
-.nav-link:focus{
+.nav-link:focus {
     font-size: 14px;
     text-decoration: underline;
     color: #bbf330;
@@ -84,15 +90,15 @@ align-items: center;
 
 /*section 1*/
 
-.hero{
+.hero {
     padding-top: 14px;
     padding-bottom: 69px;
 }
 
-.hero-container{
-display: flex;
-align-items: center;
-gap: 143px;
+.hero-container {
+    display: flex;
+    align-items: center;
+    gap: 143px;
 }
 
 .hero-text-wrap {
@@ -108,7 +114,7 @@ gap: 143px;
 
 .hero-text {
     line-height: 1.5;
-   margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 /*section 2*/
@@ -120,15 +126,15 @@ gap: 143px;
 }
 
 .about-container {
-display: flex;
-flex-direction: row-reverse;
-align-items: center;
-gap: 90px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 90px;
 
 }
 
-.about-wrap{
-max-width: 573px;
+.about-wrap {
+    max-width: 573px;
 }
 
 .about-title {
@@ -153,20 +159,91 @@ max-width: 573px;
 }
 
 .about-item {
-    margin-bottom: 32px;
+   
+}
+
+.svg-icon{
+  
+}
+
+.icon-about{
+border-radius: 100%;
+fill: #7eb101;
+}
+
+.food-icons{
+    fill: #2c2c2c;
 }
 
 .about-sabtitle {
-font-weight: 700;
-font-size: 18px;
-line-height: 140%;
-color: #2c2c2c;
-margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #2c2c2c;
+    margin-bottom: 16px;
 }
 
-.about-dsc {}
+.about-dsc {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2c2c2c;
+}
 
-.about-btn {}
+.about-btn {
+    border: 2px solid #7eb101;
+    background: #fff;
+    margin-top: 32px;
+}
+
+
+/*section 3*/
+
+.food{
+    margin: 120px 0px 101px 32px;
+    width: auto;
+    height: auto;
+    
+}
+
+.food-container{
+
+}
+
+.food-title{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        text-align: center;
+        color: #2c2c2c;
+}
+
+.food-text{
+font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #2c2c2c;
+}
+
+.food-list{
+    width: 1248px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.food-images{
+    display: flex;
+}
+
+
+
+
 
 .backdrop{
 position: fixed;
