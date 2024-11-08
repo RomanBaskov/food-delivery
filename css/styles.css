@@ -158,7 +158,10 @@ button {
     gap: 67px;
 }
 
-.about-item
+.about-item{
+width: 48px;
+height: 48px;
+}
 
 .svg-icon
 
@@ -168,9 +171,7 @@ border-radius: 100%;
 
 .food-icons{
     fill: #7eb101;
-    background-color: #2c2c2c;
-    width: 28px;
-    height: 28px;
+    color: #2c2c2c;
 }
 
 .about-sabtitle {
