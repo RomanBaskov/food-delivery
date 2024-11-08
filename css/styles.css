@@ -165,22 +165,22 @@ button {
 .icon-about{
 border-radius: 100%;
 background-color: #2c2c2c;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
 }
 
 .food-icons{
     fill:#7eb101;
-    display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        text-align: center;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        height: 100%;
-        z-index: 999;
- }
+}
 
 .about-sabtitle {
     font-weight: 700;
