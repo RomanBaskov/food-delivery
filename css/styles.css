@@ -160,9 +160,7 @@ button {
 
 .about-item
 
-.svg-icon{
-    text-align: center;
-}
+.svg-icon
 
 .icon-about{
 border-radius: 100%;
@@ -171,6 +169,7 @@ background-color: #2c2c2c;
 
 .food-icons{
     fill:#7eb101;
+    
  }
 
 .about-sabtitle {
