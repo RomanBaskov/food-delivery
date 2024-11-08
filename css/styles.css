@@ -158,11 +158,11 @@ button {
     gap: 67px;
 }
 
-.about-item
-
-.svg-icon{
-fill: #2c2c2c;
+.about-item{
+    fill: #2c2c2c;
 }
+
+.svg-icon
 
 .icon-about{
 border-radius: 100%;
