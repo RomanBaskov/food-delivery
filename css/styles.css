@@ -158,13 +158,9 @@ button {
     gap: 67px;
 }
 
-.about-item {
-   
-}
+.about-item
 
-.svg-icon{
-  
-}
+.svg-icon
 
 .icon-about{
 border-radius: 100%;
@@ -207,9 +203,7 @@ fill: #7eb101;
     
 }
 
-.food-container{
-
-}
+.food-container
 
 .food-title{
     font-family: "Roboto", sans-serif;
