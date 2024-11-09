@@ -107,34 +107,54 @@
   </div>  
 </section>
 
-<section>
-    <h2>What our Customers Say</h2>
-    <p>
+<section class="customer">
+    <div class="container customer-container">
+    <h2 class="customer-title">What our Customers Say</h2>
+    <p class="titel-text">
         Don't just take our word for it - see what our satisfied customers
         have to say
-    </p></div>
-    <ul>
-        <li>
-            <p>
+    </p>
+    <ul class="customer-list">
+        <div class="customer-reviews">
+<div class="reviews">
+        <li class="customer-item">
+            <div class="icon-stars">
+                <svg width="101" height="18">
+                    <use href="./images/icons.svg#icon-stars" class="reviews-icon"></use>
+                </svg>
+            </div>
+            <p class="customer-item-text">
                 “The Best app I have used to order food in a while, so many
                 options to choose from too, I would recommend to a freind, No
                 questions asked”
             </p>
-            <img src="./images/man-min.png" alt="Man" width="48" height="48" />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
+            <img src="./images/man-min.png" alt="Man" width="48" height="48" class="revies-foto" />
+            <h3 class="reviews-title">Sumith Shah</h3>
+            <p class="reviews-title-text">Some Dude</p>
         </li>
-        <li>
-            <p>
+</div>
+<div class="reviews">
+        <li class="customer-item">
+            <div class="icon-stars">
+                <svg width="101" height="18">
+                    <use href="./images/icons.svg#icon-stars" class="reviews-icon"></use>
+                </svg>
+            </div>
+            <p class="customer-item-text">
                 “The ease with which I can just go in and order what i want was
                 amazing, It has been a very pleasant experience ordering from this
                 app”
             </p>
-            <img src="./images/woman-min.png" alt="Woman" width="48" height="48" />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
+            <img src="./images/woman-min.png" alt="Woman" width="48" height="48" class="revies-foto" />
+            <h3 class="reviews-title">Sumith Shah</h3>
+            <p class="reviews-title-text">Some Dude</p>
         </li>
+</div>
+   </div>      
     </ul>
+   
+</div>
+</div>     
 </section>
 
 <section>
@@ -142,7 +162,7 @@
     <p>
         Order now and receive 10% off your first meal with Enjoy Your Favorite
         Food From Anywhere.
-    </p>
+   </p>
     <input type="email" name="input" required placeholder="Enter your email" />
     <button type="submit">Subscribe</button>
     <img src="./images/banan-min.png" alt="An ordinary banan" width="608" height="266" />
