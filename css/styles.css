@@ -164,14 +164,12 @@ button {
 
 .icon-about{
 border-radius: 100%;
-fill: #2c2c2c;
-width: 48px;
+background-color: #2c2c2c;
 }
 
 .food-icons{
     fill:#7eb101;
-    width: 28px;
-
+    
 }
 
 .about-sabtitle {
@@ -305,22 +303,50 @@ font-family: "Roboto", sans-serif;
         margin-top: 29px;
         margin-left: 14px;
         width: 473px;
+        margin-bottom: 41px;
 }
 
-.revies-foto
+.revies-foto{
+    margin-right: 16px;
+}
 
-.reviews-title
-.reviews-title-text
+.reviews-title{
+    display: flex;
+    width: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2c2c2c;
+    margin-bottom: 2px;
+    
+}
+.reviews-title-text{
+    display: flex;
+    width: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2c2c2c;
+}
 
 .reviews{
    display: flex;
    width: 501px;
-   height: 231px;
    
 }
 
+.box-model{
+    display: flex;
+    margin-left: 14px;
+}
 
-
+.model-text{
+    display: flex;
+    flex-direction: column;
+    
+}
 /*section 5*/
 
 
