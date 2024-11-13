@@ -163,11 +163,14 @@ button {
 .svg-icon
 
 .icon-about{
+display: flex;
+align-items: center
 border-radius: 100%;
 background-color: #2c2c2c;
 }
 
 .food-icons{
+    display: flex;
     fill:#7eb101;
     
 }
