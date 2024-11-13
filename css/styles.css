@@ -280,20 +280,20 @@ font-family: "Roboto", sans-serif;
 }
 .customer-item{
     border-radius: 0 30px 30px 30px;
-        width: 501px;
-        height: 231px;
-        background: #fefefe;
+    width: 501px;
+    height: 231px;
+    background: #fefefe;
 }
 
 .item-stars{
-   background-color: #fff;
+    display: flex;
+    margin-left: 14px;
+    margin-top: 14.28px;
 }
 
 .stars-icon{
     display: flex;
     fill: #ffe550; 
-    margin-left: 14px;
-    margin-top: 14.28px;
 }
 
 .customer-item-text{
