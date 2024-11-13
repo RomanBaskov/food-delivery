@@ -285,11 +285,12 @@ font-family: "Roboto", sans-serif;
         background: #fefefe;
 }
 
-.icon-stars{
+.item-stars{
    background-color: #fff;
 }
 
-.reviews-icon{
+.stars-icon{
+    display: flex;
     fill: #ffe550; 
     margin-left: 14px;
     margin-top: 14.28px;
