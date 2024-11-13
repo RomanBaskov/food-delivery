@@ -301,7 +301,7 @@ font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 18px;
         color: #2c2c2c;
-        margin-top: auto;
+        margin-top: 28.56px;
         margin-left: 14px;
         width: 473px;
         margin-bottom: 41px;
@@ -347,6 +347,7 @@ font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
     border-right-color: #7eb101;
+    width: 94px;
     
 }
 /*section 5*/
