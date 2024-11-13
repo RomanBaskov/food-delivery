@@ -342,12 +342,12 @@ font-family: "Roboto", sans-serif;
 .box-model{
     display: flex;
     margin-left: 14px;
+    border-right-color:#7eb101;
 }
 
 .model-text{
     display: flex;
     flex-direction: column;
-    border-color: #7eb101;
     width: 94px;
           
 }
