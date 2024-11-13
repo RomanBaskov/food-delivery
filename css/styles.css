@@ -287,12 +287,12 @@ font-family: "Roboto", sans-serif;
 
 .icon-stars{
    background-color: #fff;
-   margin-left: 14px;
-   margin-top: 14.28px;
 }
 
 .reviews-icon{
     fill: #ffe550; 
+    margin-left: 14px;
+    margin-top: 14.28px;
 }
 
 .customer-item-text{
