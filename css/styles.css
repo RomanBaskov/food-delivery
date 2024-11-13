@@ -172,13 +172,12 @@ margin-bottom: 8px;
 }
 
 .food-icons{
-    display: flex;
+    
     fill:#7eb101;
-    width: 100%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+        
 }
 
 .about-sabtitle {
