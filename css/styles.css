@@ -163,9 +163,11 @@ button {
     flex-direction: column;
 }
 
-.svg-icon{
+.svg-icons{
 display: flex;
     align-items: center;
+    width: 48px;
+    height: 48px;
 }
 
 .fon-icons{
