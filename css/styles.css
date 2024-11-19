@@ -170,10 +170,14 @@ fill:#2c2c2c;
 }
 
 .icons-rocket{
+    display: flex;
+    align-items: center;
 fill:#7eb101;
 }
 
 .icons-input {
+    display: flex;
+        align-items: center;
 fill: #7eb101;
 }
 
