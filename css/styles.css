@@ -163,21 +163,22 @@ button {
     flex-direction: column;
 }
 
-.svg-icon
+.svg-icon{
+display: flex;
+    align-items: center;
+}
 
 .fon-icons{
 fill:#2c2c2c;
 }
 
 .icons-rocket{
-    display: flex;
-    align-items: center;
+    
 fill:#7eb101;
 }
 
 .icons-input {
-    display: flex;
-        align-items: center;
+    
 fill: #7eb101;
 }
 
