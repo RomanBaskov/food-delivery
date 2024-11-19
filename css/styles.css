@@ -165,16 +165,23 @@ button {
 
 .svg-icon
 
-.icon-about{
-border-radius: 100%;
-margin-bottom: 8px;
+.fon-icons{
+fill:#2c2c2c;
+width: 32px;
+height: 32px;
 }
 
-.food-fon{
-fill:#2c2c2c;}
 
-.food-icons{
-    fill:#7eb101;
+.icons-rocket{
+fill:#7eb101;
+width: 28px;
+height: 28px;
+}
+
+.icons-input {
+fill: #7eb101;
+width: 22px;
+height: 29px;
 }
 
 .about-sabtitle {
