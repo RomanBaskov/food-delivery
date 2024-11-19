@@ -164,19 +164,23 @@ button {
 }
 
 .svg-icons{
-
-    width: 48px;
-    height: 48px;
+width: 48px;
+height: 48px;
+position: relative;
+text-align: center;
 }
 
 .fon-icons{
-fill: red
+fill:#2c2c2c;
 }
 
 .icons-rocket{
-   
-fill:#7eb101;
-
+ fill:#7eb101;
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
 }
 
 .icons-input {
