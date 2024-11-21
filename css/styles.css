@@ -134,7 +134,7 @@ button {
 }
 
 .about-wrap {
-    max-width: 573px;
+    max-width: 537px;
 }
 
 .about-title {
@@ -163,10 +163,12 @@ button {
     flex-direction: column;
 }
 
-.svg-icons{
-width: 48px;
-height: 48px;
-position: relative;
+.svg-icons-rocket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/icons.svg#icon-fon), url(../images/icons.svg#icon-rocket);
+
 }
 
 .fon-icons{
@@ -365,11 +367,58 @@ font-family: "Roboto", sans-serif;
 
 /*section 5*/
 
+.subscribe 
 
+.container 
 
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    padding: 173px 15px 201px 21px;
+    flex-direction: row;
+}
 
+.subscribe-wrap{
+min-width: 656px;
+}
 
+.subscribe-title {
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 1.2;
+        color: #2c2c2c;
+        margin-bottom: 20px;
+}
 
+.subscribe-text {
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #2c2c2c;
+        max-width: 532px;
+        margin-bottom: 24px;
+}
+
+.subscribe-email{
+    border: 0.85px solid #ffe550;
+        border-radius: 30px;
+        padding: 10px;
+        width: 395px;
+        height: 42px;
+        background: #fefefe;
+}
+
+.subscribe-btn{
+border-radius: 30px;
+    padding: 10px 20px;
+    width: 103px;
+    height: 42px;
+    background: #bbf330;
+    margin-left: 32px;
+    border: none;
+}
 
 .backdrop{
 position: fixed;

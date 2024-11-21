@@ -64,9 +64,9 @@
             <ul class="about-list">
                 <li class="about-item">
                     <div>
-                     <svg class="svg-icons">
-                    <use href="./images/icons.svg#icon-rocket" class="icons-rocket" width="28" height="28"></use>
+                     <svg class="svg-icons-rocket">
                     <use href="./images/icons.svg#icon-fon" class="fon-icons"></use>
+                    <use href="./images/icons.svg#icon-rocket" class="icons-rocket" width="28" height="28"></use>
                     </svg>
                     </div>
                     <h3 class="about-sabtitle">Fasest Delivery</h3>
@@ -74,10 +74,10 @@
                         delivered to you within 30-minutes.</p>
                 </li>
                 <li class="about-item">
-                    <div>
-                        <svg class="svg-icons">
-                        <use href="./images/icons.svg#icon-fon" class="fon-icons"></use>
-                        <use href="./images/icons.svg#icon-input" class="icons-input" width="22" height="29"></use>
+                    <div class="svg-icons">
+                        <svg  width="48" height="48">
+                        <use href="./images/icons.svg#icon-fon" ></use>
+                        <use href="./images/icons.svg#icon-input"></use>
                         </svg>
                     </div>
                     <h3 class="about-sabtitle">Easy To Order</h3>
@@ -165,15 +165,22 @@
 </div>     
 </section>
 
-<section>
-    <h2>Subscribe To Get Special Offers</h2>
-    <p>
+<section class="subscribe">
+<div class="container subscribe-container">
+    <div class="subscribe-wrap">
+    <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
+    <p class="subscribe-text">
         Order now and receive 10% off your first meal with Enjoy Your Favorite
         Food From Anywhere.
    </p>
-    <input type="email" name="input" required placeholder="Enter your email" />
-    <button type="submit">Subscribe</button>
+    <input class="subscribe-email" type="email" name="input" required placeholder="Enter your email" />
+    <button class="subscribe-btn" type="submit">Subscribe</button>
+   </div>
+
+    <div>
     <img src="./images/banan-min.png" alt="An ordinary banan" width="608" height="266" />
+    </div>
+</div>
 </section>
 
 </main>
