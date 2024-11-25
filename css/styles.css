@@ -163,24 +163,26 @@ button {
     flex-direction: column;
 }
 
-.svg-icons-rocket{
+.item-icons
+
+.svg-icons{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../images/icons.svg#icon-fon), url(../images/icons.svg#icon-rocket);
-
 }
 
 .fon-icons{
-fill:#2c2c2c;
+fill: #2c2c2c;
 }
 
 .icons-rocket{
- fill:#7eb101;
+fill: #7eb101;   
+transform: translate(10px, 10px);
 }
 
 .icons-input {
 fill: #7eb101;
+transform: translate(14px, 10px);
 }
 
 .about-sabtitle {
@@ -189,6 +191,7 @@ fill: #7eb101;
     line-height: 140%;
     color: #2c2c2c;
     margin-bottom: 16px;
+    margin-top: 8px;
 }
 
 .about-dsc {
